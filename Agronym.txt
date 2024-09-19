@@ -1,1 +1,21 @@
 Welcome to Agronym SolutionsAgronym Solutions
+
+Agronym Solutions
+ Agronym Solutions focuses on developing smart agricultural devices by integrating hardware and software to revolutionize 
+farming practices.The solution is to efficiently install the computerised interface which  controls the smart automations required 
+to perform specific tasks in the field using the Hardware & Software Which is developed i.e providing a web control interface for 
+automated irrigation system which involves valve rotating mechanism (hardware part which can be easily installed on pre 
+existing valve system),smart weed management and smart surveillance system etc.
+     Our aim is to increase productivity, promote eco-friendly agriculture, enable remote farming with reduced manual labor, and 
+make advanced agricultural solutions accessible to a wide range of audience. Developing easily installable hardware technologies 
+integrated with software methodologies to promote precision farming and enhance accessibility.
+   Innovated a mechanism which has the capability to replace solenoid valves in agricultural fields 
+i.e mechanism which can operate PVC ball valves which are already installed in fields.
+  A software approach for weed management,smart surveillance which employs computer vision engineering and AI.
+ Valves can be controlled through the software via web application and can also be set to an automated mode i.e using sensors to 
+control the mechanism.
+ Uniqueness- unlike solenoid valves there is no need to replace the existing plumbing system present in the agriculture fields and 
+can easily installed on the pre existing valves present in the agricultural fields which will reduce the cost significantly.Seamless 
+integration of smart automation into agriculture, revolutionizing farming with greater precision and efficiency
+
+
