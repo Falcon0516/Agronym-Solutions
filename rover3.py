@@ -11,13 +11,13 @@ host_port = 3000  # Changed to 8080 as suggested alternative
 
 # Motor driver pins (L298N)
 # Left motor
-in1_left = 3
-in2_left = 5
+in1_left = 17
+in2_left = 27
 # Removed en_left pin
 
 # Right motor
-in3_right = 17
-in4_right = 27
+in3_right = 11
+in4_right = 9
 # Removed en_right pin
 
 # Global variables
