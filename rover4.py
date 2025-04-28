@@ -654,9 +654,10 @@ def cleanup():
 # Main entry point
 if __name__ == '__main__':
     try:
-        # Initialize GPIO at startup
+        # Initialize GPIO at startup but don't start motors
         setupGPIO()
         GPIO._initialized = True
+        stop_rover()  # Explicitly stop the rover at startup
         
         server_address = (host_name, host_port)
         http_server = HTTPServer(server_address, RoverServer)
