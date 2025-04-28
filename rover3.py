@@ -16,8 +16,8 @@ in2_left = 5
 # Removed en_left pin
 
 # Right motor
-in3_right = 11
-in4_right = 13
+in3_right = 17
+in4_right = 27
 # Removed en_right pin
 
 # Global variables
