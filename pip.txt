@@ -1,0 +1,11 @@
+# Install the full python3 if not already
+sudo apt install python3-full python3-venv
+
+# Create a new virtual environment (anywhere you want)
+python3 -m venv ~/myenv
+
+# Activate the virtual environment
+source ~/myenv/bin/activate
+
+# Now install the Adafruit-DHT package
+pip install Adafruit-DHT
