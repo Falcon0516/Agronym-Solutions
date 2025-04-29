@@ -1,0 +1,20 @@
+import adafruit_dht
+import board
+
+# Define which GPIO pin the DHT sensor is connected to
+DHT_PIN = board.D4  # Use board.D4 if sensor connected to GPIO4
+
+# Initialize DHT22 sensor
+dht_device = adafruit_dht.DHT22(DHT_PIN)
+
+def read_dht_sensor():
+    try:
+        temperature = dht_device.temperature  # in Celsius
+        humidity = dht_device.humidity        # in percent
+        if humidity is not None and temperature is not None:
+            return temperature, humidity
+        else:
+            return None, None
+    except Exception as e:
+        print(f"Error reading DHT sensor: {e}")
+        return None, None
